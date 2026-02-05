@@ -1,7 +1,7 @@
 #import
 import streamlit as st
 import pandas as pd
-import plotly.express as px 
+import plotly.express as px
 from pathlib import Path
 import requests
 import random
