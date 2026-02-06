@@ -35,7 +35,9 @@ if st.button("Click to launch balloons !!!! Or maybe some snow if lucky ?"):
         st.snow()
     else:
         st.balloons()
+        
 
+download_data()
 co2_df = pd.read_csv('../data/CO2_per_capita.csv', delimiter=';') 
 st.table(co2_df.head())
 
